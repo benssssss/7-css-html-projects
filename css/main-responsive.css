@@ -1,0 +1,29 @@
+@media (max-width: 1080px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .qr-code,
+    .stat-preview,
+    .post-preview {
+        width: 100%;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .qr-code:before,
+    .stat-preview:before,
+    .post-preview:before {
+        background-size: 465px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .qr-code:before,
+    .stat-preview:before,
+    .post-preview:before {
+        background-size: 350px;
+    }
+}
