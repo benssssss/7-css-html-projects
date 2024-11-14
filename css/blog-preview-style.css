@@ -1,0 +1,117 @@
+body {
+    font-size: 62.5%;
+    font-family: "Figtree";
+}
+
+.main,
+.learning-button a {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.card-container,
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main,
+body {
+    height: 100vh;
+}
+
+.main,
+.publish-date,
+.title-description,
+.content-creator {
+    display: flex;
+}
+
+.main {
+    justify-content: center;
+}
+
+.main,
+.content-creator {
+    align-items: center;
+}
+
+.card-container {
+    width: 300px;
+    height: 460px;
+    border-radius: .8rem;
+    padding: 1.2rem;
+    box-shadow: 8px 8px 1px;
+    margin: 0 1rem;
+    border: 2px solid #000;
+}
+
+.card-image {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .6rem;
+}
+
+.publish-date,
+.title-description {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.publish-date {
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.learning-button a,
+.creator-name,
+.title-description .title {
+    font-weight: 800;
+}
+
+.learning-button a {
+    font-size: .8rem;
+    padding: .4rem .8rem;
+    border-radius: .5rem;
+}
+
+.release-date {
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.release-date,
+.title-description .description {
+    color: hsl(0, 0%, 42%);
+}
+
+.title-description {
+    margin-top: .7rem;
+    height: 5rem;
+}
+
+.title-description .title {
+    font-size: 1.2rem;
+}
+
+.creator-name,
+.title-description .description {
+    font-size: 0.8rem;
+}
+
+.title-description .description {
+    font-weight: 400;
+}
+
+.content-creator {
+    margin: 1.2rem 0;
+    gap: .6rem;
+}
+
+.avatar-creator,
+.avatar-creator img {
+    height: 35px;
+}
+
+.avatar-creator img {
+    border-radius: 50%;
+}

@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    background-color: violet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    height: 100vh;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    display: block;
+    height: 550px;
+}
+
+.images {
+    height: 550px;
+}
+
+.qr-code {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.stat-preview {
+    background-color: hsl(233, 47%, 10%);
+}
+
+.post-preview {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.qr-code,
+.stat-preview,
+.post-preview {
+    position: relative;
+}
+
+.link {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.qr-code:before,
+.stat-preview:before,
+.post-preview:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    display: none;
+    background: url("/images/main/clique-aqui-white.png") center no-repeat;
+    background-size: 600px;
+}
+
+.post-preview:before {
+    background: url("/images/main/clique-aqui.png") center no-repeat;
+    background-size: 600px;
+}
+
+.stat-preview:before {
+    opacity: 0.4;
+}
+
+.qr-code:before {
+    background-color: hsl(218, 44%, 22%);
+}
+
+.stat-preview:before {
+    background-color: hsl(277, 84%, 20%);
+}
+
+.post-preview:before {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.stat-preview:hover::before,
+.qr-code:hover::before,
+.post-preview:hover::before {
+    display: block;
+}

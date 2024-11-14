@@ -1,0 +1,114 @@
+html {
+    font-size: 62.5%;
+    color: #fff;
+    font-family: "Lexend Deca";
+}
+
+.main {
+    background-color: hsl(233, 47%, 10%);
+    padding: 5rem 2rem;
+    height: 100vh;
+    min-width: 100%;
+    align-items: center;
+}
+
+.title-description,
+.main,
+.statictics,
+.statistic-container {
+    display: flex;
+}
+
+.main {
+    justify-content: center;
+}
+
+.image picture,
+.image picture:before,
+.description {
+    width: 100%;
+}
+
+.image picture,
+.image picture:before {
+    display: block;
+    height: 100%;
+}
+
+.image picture {
+    position: relative;
+}
+
+.image img,
+.image picture:before {
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.image picture:before {
+    content: "";
+    background-color: hsl(277, 84%, 20%);
+    position: absolute;
+    opacity: 0.7;
+}
+
+.all-content {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 1.5rem;
+    width: 320px;
+}
+
+.title-description,
+.statictics,
+.statistic-container {
+    flex-direction: column;
+}
+
+.title-description,
+.statictics {
+    text-align: center;
+}
+
+.title-description {
+    padding: 1.5rem;
+}
+
+.title-description .title {
+    font-size: 2.6rem;
+    margin-top: 1rem;
+}
+
+.title-description .title span {
+    color: hsl(277, 64%, 61%);
+}
+
+.description {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    align-items: center;
+    line-height: 2.2rem;
+    margin-top: 1.4rem;
+}
+
+.description,
+.statistic-description {
+    color: hsl(0, 0%, 100%, 0.6);
+}
+
+.statictics {
+    padding-bottom: 2rem;
+}
+
+.statistic-container {
+    height: 75px;
+    justify-content: center;
+}
+
+.statistic-value {
+    font-size: 2.2rem;
+}
+
+.statistic-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.4rem;
+}

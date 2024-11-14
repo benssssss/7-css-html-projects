@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+    font-family: "Outfit";
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 320px;
+    height: 500px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.7rem;
+    margin: 0 1.5rem;
+}
+
+picture img {
+    width: 100%;
+}
+
+picture img,
+main {
+    border-radius: 1.5rem;
+}
+
+.text {
+    width: 280px;
+}
+
+.title {
+    font-size: 2.3rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.description {
+    font-size: 1.6rem;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+}
+
+.title,
+.description {
+    margin-top: 1.5rem;
+}
+

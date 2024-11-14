@@ -1,0 +1,26 @@
+.seta-voltar {
+    height: 40px;
+    transform: rotate(180deg);
+}
+
+.texto-voltar {
+    font-size: 25px;
+}
+
+.elemento-voltar {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 9px;
+    padding: 15px;
+}
+
+.branco {
+    color: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
